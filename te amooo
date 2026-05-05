@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Amorcitoo 💛</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cielo"></div>
+
+<div class="contenido">
+
+  <h1 class="titulo">Amorcitoo 💛</h1>
+  <p class="descripcion">mym por siempre</p>
+
+  <!-- Corazón de pétalos -->
+  <div class="corazon">
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+    <div class="petalo"></div>
+  </div>
+
+  <!-- Contador -->
+  <div id="contador" class="contador"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
