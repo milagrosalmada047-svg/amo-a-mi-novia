@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-family: cursive;
+}
+
+/* ATARDECER */
+.cielo {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, #ff9966, #ff5e62, #ffd166);
+  z-index: -1;
+}
+
+/* CONTENIDO */
+.contenido {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.titulo {
+  font-size: 3rem;
+  color: white;
+}
+
+.descripcion {
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* CORAZÓN */
+.corazon {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+
+/* PÉTALOS */
+.petalo {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: yellow;
+  border-radius: 50%;
+  box-shadow: 0 0 10px gold;
+  animation: flotar 3s infinite ease-in-out;
+}
+
+/* FORMA DE CORAZÓN */
+.petalo:nth-child(1) { top: 40px; left: 90px; }
+.petalo:nth-child(2) { top: 20px; left: 60px; }
+.petalo:nth-child(3) { top: 20px; left: 120px; }
+.petalo:nth-child(4) { top: 50px; left: 40px; }
+.petalo:nth-child(5) { top: 50px; left: 140px; }
+.petalo:nth-child(6) { top: 90px; left: 30px; }
+.petalo:nth-child(7) { top: 90px; left: 150px; }
+.petalo:nth-child(8) { top: 130px; left: 60px; }
+.petalo:nth-child(9) { top: 130px; left: 120px; }
+.petalo:nth-child(10){ top: 170px; left: 90px; }
+
+/* ANIMACIÓN */
+@keyframes flotar {
+  0%,100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* CONTADOR */
+.contador {
+  margin-top: 30px;
+  font-size: 1.5rem;
+  color: white;
+  background: rgba(255,255,255,0.2);
+  display: inline-block;
+  padding: 15px;
+  border-radius: 15px;
+}
